@@ -51,7 +51,7 @@ public class CSVProcessor {
 					}
 				}
 				else {
-					LOGGER.error( "CSV file does not exist at path: " + csvFilePath );
+					LOGGER.error( "CSV file does not exist at path: {}", csvFilePath );
 				}
 			}
 

@@ -26,9 +26,7 @@ public class Properties {
 	@JsonProperty( "nowo:dl005_fornecedoresClientes_tipoCliente" )
 	private String nowoDl005FornecedoresClientesTipoCliente;
 
-	public String getNowoDl005FornecedoresClientesEmpresaFornecedorCliente() {
-		return nowoDl005FornecedoresClientesEmpresaFornecedorCliente;
-	}
+
 
 	public static Properties createProperties( String empresa, String grupo, String morada, String nipc, String tipo ) {
 		Properties properties = new Properties();

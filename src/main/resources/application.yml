@@ -2,9 +2,9 @@
 # --- Application properties ---- #
 app:
   server: https://reqres.in/api/
-  path: users?page=2
+  path:
   token: VElDS0
   suplistnode: 92b00f8d-0ede
   dirPath: 'C:\\csv'
-  filename: 'list.csv'
+  filename: 'listagem.csv'
   children: children

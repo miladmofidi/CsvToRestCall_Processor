@@ -1,9 +1,12 @@
 package com.mofidsoft.csvtorestcall_processor.model;
 
+import lombok.Getter;
+
 /**
- * @author Milad Mofidi (milad.mofidi@cmas-systems.com)
+ * @author Milad Mofidi (milad.mofidi@gmail.com.com)
  * 7/3/2023
  */
+@Getter
 public enum CSVRecordIndex {
 	GROUP( 0 ),
 	EMPRESA( 1 ),
@@ -17,7 +20,4 @@ public enum CSVRecordIndex {
 		this.index = index;
 	}
 
-	public int getIndex() {
-		return index;
-	}
 }
